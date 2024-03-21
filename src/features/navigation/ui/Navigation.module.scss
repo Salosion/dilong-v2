@@ -1,0 +1,15 @@
+@use '../../../shared/styles' as *;
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.link {
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: $coffeeColor;
+}
